@@ -65,20 +65,19 @@ public class Main {
                 break;
             }
             System.out.print(integer[i] + ", ");
-
-            for (int i = 0; i <= floater.length - 1; i++) {
-                if (i == floater.length - 1) {
-                    System.out.println(floater[i]);
-                    break;
-                }
-                System.out.print(floater[i] + ", ");
+        }
+        for (int i = 0; i <= floater.length - 1; i++) {
+            if (i == floater.length - 1) {
+                System.out.println(floater[i]);
+                break;
             }
-            for (int i = 0; i<= random.length - 1; i++) {
-                if (i == random.length-1) {
-                    System.out.println(random[i]);
-                    break;
-                } System.out.print(random[i]+", ");
-            }
+            System.out.print(floater[i] + ", ");
+        }
+        for (int i = 0; i<= random.length - 1; i++) {
+            if (i == random.length-1) {
+                System.out.println(random[i]);
+                break;
+            } System.out.print(random[i]+", ");
         }
 
     }
@@ -98,7 +97,7 @@ public class Main {
             } else System.out.println(integer[i]);
         }
 
-        for (int i = floater.length - 1; i >= 0; i--) {
+        for ( int i = floater.length - 1; i >= 0; i--) {
             if (i > 0) {
                 System.out.print(floater[i] + ", ");
             } else System.out.println(floater[i]);
